@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* new year party section style started */
+.newYear{
+    /* background-image: url("images/Banner\ Image.png"); */
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) , url("images/Banner\ Image.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 600px;
+    padding: 30px;
+    margin: 50px 150px 50px;
+    background-color: white;
+    border-radius: 15px;
+}
+.happy-new-year{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+}
+.happy-new-year-party{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* new year party section style ended */
+
+/* Holiday deals style started */
+.off{
+    font-size: 62px;
+    color: red;
+    text-align: center;
+    
+}
+.deals{
+    padding-top: 30px;
+    font-size: 30px;
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.all{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.new-year-photo{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 20px;
+    height: 350px;
+}
+/* Holiday deals style ended */
+
+/* midnight party section style started */
+.mid-night-party{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),  url("images/vectorrr.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 600px;
+    padding: 30px;
+    margin: 50px 150px 50px;
+    background-color: white;
+    border-radius: 15px;
+}
+.mid-night-party h2{
+    color: white;
+    text-align: left;
+    font-size: 65px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.mid-night-party p{
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.mid-night-party button{
+    margin-top: 50px;
+    margin-left: 50px;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.mid-night-party img{
+    margin-left: 750px;
+    margin-top: -300px;
+}
+/* midnight party section style ended */
