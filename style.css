@@ -9,7 +9,7 @@
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) , url("images/Banner\ Image.png");
     background-repeat: repeat-y;
     background-size: cover;
-    height: 600px;
+    height: 400px;
     padding: 30px;
     margin: 50px 150px 50px;
     background-color: white;
@@ -19,7 +19,7 @@
     font-size: 32px;
     color: white;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 100px;
 }
 .happy-new-year-party{
     font-size: 72px;
@@ -63,7 +63,7 @@
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),  url("images/vectorrr.png");
     background-repeat: repeat-y;
     background-size: cover;
-    height: 600px;
+    height: 400px;
     padding: 30px;
     margin: 50px 150px 50px;
     background-color: white;
@@ -94,8 +94,8 @@
     font-size: 20px;
 }
 .mid-night-party img{
-    margin-left: 750px;
-    margin-top: -300px;
+    margin-left: 562px;
+    margin-top: -400px;
 }
 /* midnight party section style ended */
 
@@ -152,11 +152,10 @@
 }
 
 .celebration-image{
-    width: 32%;
     text-align: center;
     padding: 20px;
     border: 10px solid red;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 .twozerotwofour{
     width: 32%;
@@ -198,12 +197,10 @@
     position: relative;
 }
 .box{
-    z-index: 1;
+ 
 }
 .percent{
-    position: absolute;
-    margin-top: 230px;
-    margin-left: 100px;
+   
 }
 .girl{
     margin-left: 312px;
@@ -222,22 +219,29 @@
 .best-gift{
     font-size: 24px;
     color: red;
-    padding-left: 140px;
+    
 }
 .awesome-portfolio{
     font-size: 48px;
-    padding-left: 140px;
+    
 }
 
 .Portfolio-detatil{
     font-size: 20px;
     color: rgba(189, 165, 165, 0.9);
     padding-bottom: 20px;
-    padding-left: 140px;
+    padding-left:0px;
 }
 .portfolio-image-123, .portfolio-image-456{
    padding: 5px;
    text-align: center;
+   width: 100%;
+}
+.portfolio-image-123 img{
+    width: 33%;
+}
+.portfolio-image-456 img{
+    width: 33%;
 }
 /* portfolio section ended from here */
 /* newsletter section starts here */
@@ -245,5 +249,33 @@
     background-color: #F0B0B0;
     padding: 30px;
     margin: 50px 150px 50px;
+    text-align: center;
+}
+
+.newsletter img{
+    height: 60px;
+    
+}
+
+.address{
+    padding: 30px;
+    margin: 50px 150px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 50px 150px 50px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media img{
+height: 50px;
+padding: 05px;
 }
 /* newsletter section ends here */
