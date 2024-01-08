@@ -193,21 +193,32 @@
 /* 50%'s style started here */
 .fiftyPercent{
     padding: 30px;
-    margin: 50px 150px 50px;
+    margin: 50px 150px 30px;
+}
+.three{
+    display: flex;
+    justify-content: center;
     position: relative;
 }
 .box{
- 
+    height: 350px;
+    margin-bottom: -50px;
 }
 .percent{
-   
+   height: 200px;
+   position: absolute;
+   padding-left: 300px;
+   padding-top: 30px;
 }
 .girl{
-    margin-left: 312px;
+    height: 300px;
+    padding-left: 178px;
+
 }
 
 .red-line{
     width: 100%;
+    margin-top: -50px;
 }
 /* 50%'s style ended here */
 
@@ -238,10 +249,18 @@
    width: 100%;
 }
 .portfolio-image-123 img{
-    width: 33%;
+    width: 31%;
+}
+.portfolio-image-123 img:hover{
+    border: 2px solid black;
+    border-radius: 14px;
 }
 .portfolio-image-456 img{
-    width: 33%;
+    width: 31%;
+}
+.portfolio-image-456 img:hover{
+    border: 2px solid black;
+    border-radius: 14px;
 }
 /* portfolio section ended from here */
 /* newsletter section starts here */
@@ -257,33 +276,13 @@
     
 }
 
-.address{
-    padding: 30px;
-    margin: 50px 150px 50px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.right{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    margin: 50px 150px 50px;
-}
-.social-media{
-    display: flex;
-    justify-content: center;
-}
-.social-media img{
-height: 50px;
-padding: 05px;
-}
 .subscribe{
     font-size: 48px;
 }
 .subscribe input{
-    font-size: 25px;
-    padding: 05px;
+    font-size: 15px;
+    padding: 15px;
     background-color: white;
     border-color: transparent;
     border-radius: 20px 0 0 20px;
@@ -291,9 +290,9 @@ padding: 05px;
 }
 
 .subscribe button{
-    font-size: 25px;
+    font-size: 15px;
     color: white;
-    padding: 05px;
+    padding: 15px;
     background-color: red;
     border-color: transparent;
     border-radius: 0px 20px 20px 0px;
@@ -301,3 +300,41 @@ padding: 05px;
     margin-top: 15px;
 }
 /* newsletter section ends here */
+
+/* footer section style starts */
+footer{
+    background-color: black;
+    color:white;
+}
+
+footer>hr{
+    color: white(151, 119, 119, 0.5);
+}
+.address{
+    padding: 30px;
+    margin: 80px 150px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address img{
+    height: 13px;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 50px 150px 0px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social-media img{
+height: 50px;
+padding: 05px;
+}
+/* footer section style ends */
