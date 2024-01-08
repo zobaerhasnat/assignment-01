@@ -278,4 +278,26 @@
 height: 50px;
 padding: 05px;
 }
+.subscribe{
+    font-size: 48px;
+}
+.subscribe input{
+    font-size: 25px;
+    padding: 05px;
+    background-color: white;
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+    margin-top: 15px;
+}
+
+.subscribe button{
+    font-size: 25px;
+    color: white;
+    padding: 05px;
+    background-color: red;
+    border-color: transparent;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -15px;
+    margin-top: 15px;
+}
 /* newsletter section ends here */
